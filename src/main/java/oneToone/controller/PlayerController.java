@@ -1,11 +1,10 @@
-package com.spring.database.relationship.SpringDBRelationship.oneToone.controller;
+package oneToone.controller;
 
-import com.spring.database.relationship.SpringDBRelationship.oneToone.entity.Player;
-import com.spring.database.relationship.SpringDBRelationship.oneToone.entity.PlayerProfile;
-import com.spring.database.relationship.SpringDBRelationship.oneToone.service.PlayerProfileService;
-import com.spring.database.relationship.SpringDBRelationship.oneToone.service.PlayerService;
+import oneToone.entity.Player;
+import oneToone.entity.PlayerProfile;
+import oneToone.service.PlayerProfileService;
+import oneToone.service.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

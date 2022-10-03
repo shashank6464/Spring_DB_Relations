@@ -1,4 +1,4 @@
-package com.spring.database.relationship.SpringDBRelationship.oneToone.entity;
+package oneToone.entity;
 
 import javax.persistence.*;
 

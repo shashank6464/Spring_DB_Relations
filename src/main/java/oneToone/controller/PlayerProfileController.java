@@ -1,7 +1,7 @@
-package com.spring.database.relationship.SpringDBRelationship.oneToone.controller;
+package oneToone.controller;
 
-import com.spring.database.relationship.SpringDBRelationship.oneToone.entity.PlayerProfile;
-import com.spring.database.relationship.SpringDBRelationship.oneToone.service.PlayerProfileService;
+import oneToone.entity.PlayerProfile;
+import oneToone.service.PlayerProfileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
